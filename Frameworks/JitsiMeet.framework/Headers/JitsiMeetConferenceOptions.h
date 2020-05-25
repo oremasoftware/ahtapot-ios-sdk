@@ -40,12 +40,12 @@
 
 /**
  * Color scheme override, see:
- * https://github.com/jitsi/ahtapot/blob/master/react/features/base/color-scheme/defaultScheme.js
+ * https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/color-scheme/defaultScheme.js
  */
 @property (nonatomic, copy, nullable) NSDictionary *colorScheme;
 
 /**
- * Feature flags. See: https://github.com/jitsi/ahtapot/blob/master/react/features/base/flags/constants.js
+ * Feature flags. See: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
  */
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
