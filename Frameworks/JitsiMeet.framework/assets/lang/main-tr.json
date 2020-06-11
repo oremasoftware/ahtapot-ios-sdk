@@ -15,7 +15,22 @@
         "searchPeople": "Kişilerde arayın",
         "searchPeopleAndNumbers": "Kişilerde arayın ya da telefon numaralarını ekleyin",
         "telephone": "Telefon: {{number}}",
-        "title": "Konulamya kişi davet edin"
+        "title": "Konulamya kişi davet edin",
+        "addContacts": "Rehberdeki kişileri davet edin",
+        "copyInvite": "Toplantı davetini kopyala",
+        "copyLink": "Toplantı linkini kopyala",
+        "copyStream": "Canlı yayın linkini kopyala",
+        "defaultEmail": "Varsayılan Email",
+        "googleEmail": "Google Email",
+        "inviteMoreHeader": "Toplantıda tek kişisiniz",
+        "inviteMoreMailSubject": "{{appName}} toplantısına davetlisiniz",
+        "inviteMorePrompt": "Daha çok kişi davet et",
+        "linkCopied": "Link kopyalandı",
+        "outlookEmail": "Outlook Email",
+        "shareInvite": "Toplantı davetini paylaş",
+        "shareLink": "Başkalarını davet edebilmek için toplantı linkini paylaşın",
+        "shareStream": "Canlı yayın linkini paylaşın",
+        "yahooEmail": "Yahoo Email"
     },
     "audioDevices": {
         "bluetooth": "Bluetooth",
@@ -124,7 +139,8 @@
         "launchWebButton": "Webte aç",
         "openApp": "Görüşmeye uygulama ile devam et",
         "title": "Görüşmeye {{app}} ile katılınıyor...",
-        "tryAgainButton": "Masaüstü uygulamasında aç"
+        "tryAgainButton": "Masaüstü uygulamasında aç",
+        "downloadForDesktop": "{{os}} için indir"
     },
     "defaultLink": "örnek. {{url}}",
     "defaultNickname": "ör. Çağrı Öşür",
@@ -279,7 +295,16 @@
         "WaitForHostMsgWOk": "<b> {{room}} </b> konferansı henüz başlamadı. Toplantı sahibi sizseniz, lütfen kimlik doğrulaması yaparak odaya girin. Aksi takdirde, toplantı sahibinin gelmesini bekleyin.",
         "WaitingForHost": "Toplantı sahibi bekleniyor ...",
         "Yes": "Evet",
-        "yourEntireScreen": "Tüm ekranınız"
+        "yourEntireScreen": "Tüm ekranınız",
+        "accessibilityLabel": {
+            "liveStreaming": "Live Stream"
+        },
+        "add": "Ekle",
+        "e2eeDescription": "<p>End-to-End Encryption is currently <strong>EXPERIMENTAL</strong>. Please see <a href='https://jitsi.org/blog/e2ee/' target='_blank'>this post</a> for details.</p><br/><p>Please keep in mind that turning on end-to-end encryption will effectively disable server-side provided services such as: recording, live streaming and phone participation. Also keep in mind that the meeting will only work for people joining from browsers with support for insertable streams.</p>",
+        "e2eeLabel": "Anahtar",
+        "e2eeTitle": "Uçtan uca şifreleme",
+        "e2eeWarning": "<br /><p><strong>Uyarı:</strong> Tüm katılımcılar uçtan uca şifrelemeyi desteklemiyorz. Eğer şifrelemeyi açarsanız sizi göremez ve duyamazlar.</p>",
+        "screenSharingAudio": "Sesi paylaş"
     },
     "dialOut": {
         "statusMessage": "{{status}}"
@@ -294,7 +319,13 @@
         "good": "İyi",
         "rateExperience": "Toplantı deneyiminizi derecelendirin",
         "veryBad": "Çok kötü",
-        "veryGood": "Çok iyi"
+        "veryGood": "Çok iyi",
+        "errorDialOut": "Aranamadı",
+        "errorDialOutDisconnected": "Arama başarısız bağlantı koptu",
+        "errorDialOutFailed": "Arama başarısız",
+        "errorDialOutStatus": "Arama durumu alınamadı",
+        "errorStatusCode": "Arama başarısız, durum kodu: {{status}}",
+        "errorValidation": "Numara geçersiz"
     },
     "incomingCall": {
         "answer": "Cevap ver",
@@ -437,26 +468,30 @@
         "invitedOneMember": "{{name}} davet edildi",
         "invitedThreePlusMembers": "{{name}} ve {{count}} başka kullanıcı davet edildi",
         "invitedTwoMembers": "{{first}} ve {{second}} davet edildi",
-        "kickParticipant": "{{kicked}}, {{kicker}} tarafından başlatıldı",
+        "kickParticipant": "{{kicked}}, {{kicker}} tarafından çıkarıldı",
         "me": "Bana",
         "moderator": "Görüşme yöneticisi hakları verildi!",
         "muted": "Görüşmeye mikrofonunuz kapalı olarak başladınız.",
         "mutedTitle": "Sesiniz kapalı!",
         "mutedRemotelyTitle": "{{participantDisplayName}}! adlı kullanıcının tarafından sessize alındınız!",
-        "mutedRemotelyDescription": "",
-        "passwordRemovedRemotely": "",
-        "passwordSetRemotely": "",
         "raisedHand": "{{name}} konuşmak istiyor.",
         "somebody": "Birisi",
-        "startSilentTitle": "",
-        "startSilentDescription": "",
         "suboptimalBrowserWarning" : "Mmm... Korkarız ki {{appName}} deneyiminiz pek mükemmel olmayacak. Bunu düzeltmenin yollarını arıyoruz, ama o zamana kadar lütfen <a href='static/recommendedBrowsers.html' target='_blank'>desteklenen tarayıcıların birini</a> kullanın.",
         "suboptimalExperienceDescription": "Mmm... Korkarız ki {{appName}} deneyiminiz pek mükemmel olmayacak. Bunu düzeltmenin yollarını arıyoruz, ama o zamana kadar lütfen <a href='static/recommendedBrowsers.html' target='_blank'>desteklenen tarayıcıların birini</a> kullanın.",
         "suboptimalExperienceTitle": "Tarayıcı Uyarısı",
         "unmute": "",
         "newDeviceCameraTitle": "Yeni kamera algılandı",
         "newDeviceAudioTitle": "Yeni ses cihazı algılandı",
-        "newDeviceAction": "Kullan"
+        "newDeviceAction": "Kullan",
+        "mutedRemotelyDescription": "Konuşmaya hazır olduğunuzda her zaman mikorofonunuzu açabilirsiniz. Gürültüyü engellemek için konuşmayı bitirdiğinizde mikrofonunuzu kapatın",
+        "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) başka bir kullanıcı tarafından silindi",
+        "passwordSetRemotely": "$t(lockRoomPasswordUppercase) başka bir kullanıcı tarafından konuldu",
+        "startSilentTitle": "Ses çıkış cihazınız olmadan katıldınız!",
+        "startSilentDescription": "Sesi aktif edebilmek için tekrar katılın",
+        "OldElectronAPPTitle": "Güvenlik açığı!",
+        "oldElectronClientDescription1": "Güvenlik açığı, ahtapot uygulamasının eski bir sürümünü kullanıyorsunuz. Lütfen güncellediğinizden emin olun.",
+        "oldElectronClientDescription2": "Son Sürüm",
+        "oldElectronClientDescription3": "Şimdi!"
     },
     "passwordSetRemotely": "Diğer katılımcı tarafından ayarlandı",
     "passwordDigitsOnly": "Sadece rakamlar {{number}}",
@@ -525,7 +560,7 @@
         "language": "Dil",
         "loggedIn": "{{name}}, olarak oturum açtı",
         "moderator": "Moderatör",
-        "more": "Daha",
+        "more": "Daha fazla",
         "name": "Ad",
         "noDevice": "Cihaz yok",
         "selectAudioOutput": "Ses çıkışı",
@@ -614,7 +649,8 @@
             "tileView": "Izgara görünümünü aç/kapat",
             "toggleCamera": "Kamerayı değiştir",
             "videomute": "Kamerayı aç/kapat",
-            "videoblur": ""
+            "videoblur": "",
+            "security": "Güvenlik"
         },
         "addPeople": "Toplantıya arkadaşlarını ekle",
         "audioOnlyOff": "Sadece ses modu kapat",
@@ -670,7 +706,8 @@
         "toggleCamera": "Kamerayı değiştir",
         "videomute": "Kamerayı aç/kapat",
         "startvideoblur": "Arkaplanımı gizle",
-        "stopvideoblur": "Arkaplanımı göster"
+        "stopvideoblur": "Arkaplanımı göster",
+        "security": "Güvenlik"
     },
     "transcribing": {
         "ccButtonTooltip": "Altyazıları Başlat / Durdur",
@@ -775,6 +812,8 @@
         "youAreAlone": "Toplantıdaki tek kişisiniz"
     },
     "security": {
-        "insecureRoomNameWarning": "Oda adı güvenli değil"
+        "insecureRoomNameWarning": "Oda adı güvenli değil",
+        "about": "Toplantıya şifre ekleyebilirsiniz. Yeni gelenler şifreyi girmeden toplantıya katılamaz",
+        "securityOptions": "Güvenlik"
     }
 }
