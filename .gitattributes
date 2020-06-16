@@ -1,2 +1,0 @@
-WebRTC filter=lfs diff=lfs merge=lfs -text
-JitsiMeet filter=lfs diff=lfs merge=lfs -text
