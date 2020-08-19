@@ -136,7 +136,7 @@
         "description": "Toplantınızı {{app}} masaüstü uygulamasında açmak için aşağıdaki butona tıklayın.",
         "descriptionWithoutWeb": "Hiçbir şey olmadı mı? Toplantınızı {{app}} masaüstü uygulamasında başlatmayı denedik.",
         "downloadApp": "Uygulamayı indir",
-        "launchWebButton": "Webte aç",
+        "launchWebButton": "Tarayıcı ile devam et",
         "openApp": "Görüşmeye uygulama ile devam et",
         "title": "Görüşmeye {{app}} ile katılınıyor...",
         "tryAgainButton": "Masaüstü uygulamasında aç",
