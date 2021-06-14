@@ -38,6 +38,8 @@
  */
 @property (nonatomic, copy, nullable) NSString *token;
 
+
+@property (nonatomic, copy, nullable) NSString *language;
 /**
  * Color scheme override, see:
  * https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/color-scheme/defaultScheme.js
@@ -71,16 +73,6 @@
 - (void)setFeatureFlag:(NSString *_Nonnull)flag withBoolean:(BOOL)value;
 - (void)setFeatureFlag:(NSString *_Nonnull)flag withValue:(id _Nonnull)value;
 
-/**
- * CallKit call handle, to be used when implementing incoming calls.
- */
-@property (nonatomic, copy, nullable) NSString *callHandle;
-
-/**
- * CallKit call UUID, to be used when implementing incoming calls.
- */
-@property (nonatomic, copy, nullable) NSUUID *callUUID;
-
 @end
 
 @interface JitsiMeetConferenceOptions : NSObject
@@ -90,6 +82,7 @@
 @property (nonatomic, copy, nullable, readonly) NSString *room;
 @property (nonatomic, copy, nullable, readonly) NSString *subject;
 @property (nonatomic, copy, nullable, readonly) NSString *token;
+@property (nonatomic, copy, nullable, readonly) NSString *language;
 
 @property (nonatomic, copy, nullable) NSDictionary *colorScheme;
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
@@ -101,9 +94,6 @@
 @property (nonatomic, readonly) BOOL welcomePageEnabled;
 
 @property (nonatomic, nullable) JitsiMeetUserInfo *userInfo;
-
-@property (nonatomic, copy, nullable, readonly) NSString *callHandle;
-@property (nonatomic, copy, nullable, readonly) NSUUID *callUUID;
 
 + (instancetype _Nonnull)fromBuilder:(void (^_Nonnull)(JitsiMeetConferenceOptionsBuilder *_Nonnull))initBlock;
 - (instancetype _Nonnull)init NS_UNAVAILABLE;
